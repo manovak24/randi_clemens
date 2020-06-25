@@ -3,10 +3,13 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/container';
 import Navbar from 'react-bootstrap/Navbar';
-import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import Nav from 'react-bootstrap/Nav';
 
 import Footer from '../Footer/Footer';
+import HomePage from '../../Pages/HomePage';
+import AboutPage from '../../Pages/AboutPage';
+import ContactPage from '../../Pages/ContactPage';
+
 
 
 class App extends React.Component {
@@ -27,7 +30,7 @@ class App extends React.Component {
       about: {
         title: 'About Me',
       },
-      Contact: {
+      contact: {
         title: 'Contact Me',
       }
     }
@@ -50,6 +53,10 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
           
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+
           <Footer />
 
         </Container>
