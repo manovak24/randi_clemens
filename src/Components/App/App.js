@@ -9,6 +9,7 @@ import Footer from '../Footer/Footer';
 import HomePage from '../../Pages/HomePage';
 import AboutPage from '../../Pages/AboutPage';
 import ContactPage from '../../Pages/ContactPage';
+import PublicationsPage from '../../Pages/PublicationsPage';
 
 
 
@@ -26,6 +27,9 @@ class App extends React.Component {
         title: 'Randi Clemens',
         subTitle: 'Add some text',
         text: 'Add some subtext'
+      },
+      publications: {
+        title: 'Publications'
       },
       about: {
         title: 'About Me',
@@ -48,12 +52,14 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/publications">Publications</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
           
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/publications" render={() => <PublicationsPage title={this.state.publications.title} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
 
