@@ -10,6 +10,7 @@ import HomePage from '../../Pages/HomePage';
 import AboutPage from '../../Pages/AboutPage';
 import ContactPage from '../../Pages/ContactPage';
 import PublicationsPage from '../../Pages/PublicationsPage';
+import EditorialsPage from '../../Pages/EditorialsPage';
 
 
 
@@ -21,6 +22,8 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
+        { title: 'Publications', path: '/publications' },
+        { title: 'Editorials', path: '/editorials' },
         { title: 'Contact', path: '/contact' }
       ],
       home: {
@@ -30,6 +33,9 @@ class App extends React.Component {
       },
       publications: {
         title: 'Publications'
+      },
+      editorials: {
+        title: 'Editorials'
       },
       about: {
         title: 'About Me',
@@ -53,15 +59,18 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/publications">Publications</Link>
+                <Link className="nav-link" to="/editorials">Editorials</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
           
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-          <Route path="/publications" render={() => <PublicationsPage title={this.state.publications.title} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/publications" render={() => <PublicationsPage title={this.state.publications.title} />} />
+          <Route path="/editorials" render={() => <EditorialsPage title={this.state.editorials.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+          
 
           <Footer />
 

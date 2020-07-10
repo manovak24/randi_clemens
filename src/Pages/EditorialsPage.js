@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../Components/Hero/Hero';
 import Content from '../Components/Content/Content';
 
-function PublicationsPage(props) {
+function EditorialsPage(props) {
     return(
         <div>
             <Hero title={props.title} />
@@ -11,8 +11,8 @@ function PublicationsPage(props) {
                     <p>Publications</p>
                     <p>List</p>
             </Content>
-        </div>    
+        </div> 
     )
 }
 
-export default PublicationsPage;
+export default EditorialsPage;
