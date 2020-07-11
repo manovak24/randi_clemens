@@ -28,8 +28,8 @@ class App extends React.Component {
       ],
       home: {
         title: 'Randi Clemens',
-        subTitle: 'Add some text',
-        text: 'Add some subtext'
+        subTitle: 'Writer | Reader | Ice Cream Eater',
+        text: 'Thanks for checking out my page! Please click/scroll through the images below or check out my Publications and Editorials pages for current lists'
       },
       publications: {
         title: 'Publications'
@@ -38,10 +38,10 @@ class App extends React.Component {
         title: 'Editorials'
       },
       about: {
-        title: 'About Me',
+        title: 'About Me'
       },
       contact: {
-        title: 'Contact Me',
+        title: 'Contact Me'
       }
     }
   }

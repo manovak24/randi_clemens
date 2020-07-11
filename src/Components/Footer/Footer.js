@@ -1,9 +1,10 @@
 import React from 'react';
-import Container from 'react-bootstrap/container';
-import SocialFollow from '../SocialFollow/SocialFollow';
 
+import Container from 'react-bootstrap/container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
+import SocialFollow from '../SocialFollow/SocialFollow';
 
 class Footer extends React.Component {
     render() {
