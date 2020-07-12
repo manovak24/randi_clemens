@@ -73,7 +73,7 @@ class PublicationsList extends React.Component {
 
     pubList = (publications) => (
                 <ul>
-                    {publications.map(publication => (
+                    {publications.slice(0).reverse().map(publication => (
                         <li key={publication.id}>
                             <p>{publication.title}</p>
                             <p>{publication.publisher}</p>
