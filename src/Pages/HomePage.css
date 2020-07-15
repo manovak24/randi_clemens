@@ -1,0 +1,9 @@
+.homePage {
+    background-image: url(../Assets/dawn-190055_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
