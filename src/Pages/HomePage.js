@@ -1,12 +1,19 @@
 import React from 'react';
 import Hero from '../Components/Hero/Hero';
-import Carousel from '../Components/Cards/Carousel';
 import './HomePage.css'
 
 function HomePage(props) {
     return(
         <div className="homePage">
-            <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+            <div>
+                <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+            </div>
+            <div className="ButtonContainers">
+                <div className="HomePage-Buttons">
+                    <a>Publications</a>
+                    <a>Editorials</a>
+                </div>
+            </div>
         </div>
     );
 }

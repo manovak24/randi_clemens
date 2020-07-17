@@ -5,5 +5,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: black;
+    height: 45rem;
+}
+
+.ButtonContainers {
+    display: flex;
+    justify-content: center;
+}
+
+.HomePage-Buttons a {
+    border-radius: 4px;
+    padding: .65rem 2rem;
+    background-color: #cca353;
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color .5s;
+    margin-right: 2.22rem;
+    margin-bottom: 1.5rem;
 }
