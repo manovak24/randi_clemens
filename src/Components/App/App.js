@@ -35,7 +35,7 @@ class App extends React.Component {
         title: 'Publications'
       },
       editorials: {
-        title: 'Editorials'
+        title: 'Editorial Work'
       },
       about: {
         title: 'About Me'
@@ -59,7 +59,7 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/publications">Publications</Link>
-                <Link className="nav-link" to="/editorials">Editorials</Link>
+                <Link className="nav-link" to="/editorials">Editorial Work</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>

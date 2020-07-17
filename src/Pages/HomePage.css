@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: black;
+    color: whitesmoke;
     height: 45rem;
 }
 
@@ -14,7 +14,7 @@
     justify-content: center;
 }
 
-.HomePage-Buttons a {
+.HomePage-Button-Link {
     border-radius: 4px;
     padding: .65rem 2rem;
     background-color: #cca353;

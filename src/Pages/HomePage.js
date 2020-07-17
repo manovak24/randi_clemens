@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../Components/Hero/Hero';
 import './HomePage.css'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 function HomePage(props) {
     return(
@@ -10,8 +11,10 @@ function HomePage(props) {
             </div>
             <div className="ButtonContainers">
                 <div className="HomePage-Buttons">
-                    <a>Publications</a>
-                    <a>Editorials</a>
+                    <Route>
+                        <Link className="HomePage-Button-Link" to="/publications">Publications</Link>
+                        <Link className="HomePage-Button-Link" to="/editorials">Editorial Work</Link>
+                    </Route>    
                 </div>
             </div>
         </div>
