@@ -1,0 +1,19 @@
+.pub-container p {
+    font-weight: bold;
+
+}
+
+.pub-container a {
+    font-style: italic;
+    
+}
+
+.pub-container li {
+    padding-bottom: 25px;
+    
+}
+
+.pub-container h5 {
+    font-style: italic;
+    
+}

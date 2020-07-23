@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/container';
 import Row from 'react-bootstrap/row';
+import './Publications.css';
 
 class PublicationsList extends React.Component {
     constructor(props) {
@@ -72,11 +73,11 @@ class PublicationsList extends React.Component {
     }
 
     pubList = (publications) => (
-                <ul>
+                <ul className="pub-container">
                     {publications.slice(0).reverse().map(publication => (
                         <li key={publication.id}>
-                            <p>{publication.title}</p>
-                            <p>{publication.publisher}</p>
+                            <h5>{publication.title}</h5>
+                            <p>Publisher: {publication.publisher}</p>
                             <a href={publication.link} target="_blank" rel="noopener noreferrer">{publication.link}</a>
                         </li>
                     ))}

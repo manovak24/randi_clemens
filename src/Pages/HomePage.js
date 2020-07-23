@@ -11,8 +11,10 @@ function HomePage(props) {
             </div>
             <div className="ButtonContainers">
                 <div className="HomePage-Buttons">
+                    <Link className="HomePage-Button-Link" to="/about">About</Link>
                     <Link className="HomePage-Button-Link" to="/publications">Publications</Link>
                     <Link className="HomePage-Button-Link" to="/editorials">Editorial Work</Link>
+                    <Link className="HomePage-Button-Link" to="/contact">Contact</Link>
                 </div>
             </div>
         </div>
