@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/container';
 import Row from 'react-bootstrap/row';
-import './Publications.css';
+import './PublicationList.css';
 
 class PublicationsList extends React.Component {
     constructor(props) {
