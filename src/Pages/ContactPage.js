@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 
 import Hero from '../Components/Hero/Hero';
 import Content from '../Components/Content/Content';
@@ -36,23 +37,17 @@ class ContactPage extends React.Component {
 
         emailjs.sendForm('gmail', 'testing', event.target, 'user_rQF8cs4fYnfBs2O7qJ0gs')
             .then(res => {
-                if(res.data.success) {
-                    this.setState({
-                        disabled: false,
-                        emailSent: true
-                    });
-                } else {
-                    this.setState({
-                        disabled: false,
-                        emailSent: false
-                    });
-                } 
+                Swal.fire({
+                    title: 'Email Successfully Sent',
+                    icon: 'success'
+                  })
             })
             .catch(err => {
-                this.setState({
-                    disabled: false,
-                    emailSent: false
-                });
+                Swal.fire({
+                    title: 'Email Failed to Send',
+                    icon: 'error'
+                  })
+                  console.error('Email Error:', err)
             })
 
     }
@@ -81,9 +76,6 @@ class ContactPage extends React.Component {
                         <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
                             Send
                         </Button>
-
-                        {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-                        {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>
                 </Content>
             </div>
