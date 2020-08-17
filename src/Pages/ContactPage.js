@@ -8,8 +8,10 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
-import { FaFemale } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import Container from 'react-bootstrap/container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 class ContactPage extends React.Component {
@@ -61,31 +63,38 @@ class ContactPage extends React.Component {
             <div>
                 <Hero title={this.props.title} />
                 <Content>
-                    <h6>Please feel free to reach out to me at one of my social media accounts listed below or fill out the contact page and I will get back to you as soon as possible. Thanks!</h6>
-                    <h4><FaFemale /> Randi Clemens</h4>
-                    <h4><MdEmail /> randi.clemens@gmail.com</h4>
-                    <SocialFollow />
+                    <h5>Please feel free to contact me via my social media pages, email address provided below or the contact form. I will respond as soon as possible</h5>
                     <br></br>
-                    <Form onSubmit={this.handleSubmit}>
-                        <Form.Group>
-                            <Form.Label htmlFor="full-name">Full Name</Form.Label>
-                            <Form.Control id="full-name" name="user_name" type="text" value={this.state.name} onChange={this.handleChange} />
-                        </Form.Group>
+                    <Container>
+                        <Row>
+                            <Col sm="auto">
+                                <a href="randi"><MdEmail /> randiclemens@gmail.com</a>
+                                <SocialFollow />
+                            </Col>
+                            <Col>
+                                <Form onSubmit={this.handleSubmit}>
+                                    <Form.Group>
+                                        <Form.Label htmlFor="full-name">Full Name</Form.Label>
+                                        <Form.Control id="full-name" name="user_name" type="text" value={this.state.name} onChange={this.handleChange} />
+                                    </Form.Group>
 
-                        <Form.Group>
-                            <Form.Label htmlFor="email">Email</Form.Label>
-                            <Form.Control id="email" name="user_email" type="email" value={this.state.email} onChange={this.handleChange} />
-                        </Form.Group>
+                                    <Form.Group>
+                                        <Form.Label htmlFor="email">Email</Form.Label>
+                                        <Form.Control id="email" name="user_email" type="email" value={this.state.email} onChange={this.handleChange} />
+                                    </Form.Group>
 
-                        <Form.Group>
-                            <Form.Label htmlFor="message">Message</Form.Label>
-                            <Form.Control id="message" name="message" as="textarea" row="3" value={this.state.message} onChange={this.handleChange} />
-                        </Form.Group>
+                                    <Form.Group>
+                                        <Form.Label htmlFor="message">Message</Form.Label>
+                                        <Form.Control id="message" name="message" as="textarea" row="3" value={this.state.message} onChange={this.handleChange} />
+                                    </Form.Group>
 
-                        <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
-                            Send
-                        </Button>
-                    </Form>
+                                    <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                                        Send
+                                    </Button>
+                                </Form>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Content>
             </div>
         )
