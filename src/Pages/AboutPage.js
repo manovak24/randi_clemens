@@ -26,7 +26,7 @@ function AboutPage(props) {
                             <p>Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater. Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.</p>
                         </Col>
                     </Row>
-                    </Container>
+                </Container>
             </Content>
         </div>
     )

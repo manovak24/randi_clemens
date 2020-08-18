@@ -68,7 +68,7 @@ class ContactPage extends React.Component {
                     <Container>
                         <Row>
                             <Col sm="auto">
-                                <a href="randi"><MdEmail /> randiclemens@gmail.com</a>
+                                <a href="mailto:randiclemens@gmail.com"><MdEmail /> randiclemens@gmail.com</a>
                                 <SocialFollow />
                             </Col>
                             <Col>
