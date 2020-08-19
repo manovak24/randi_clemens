@@ -1,12 +1,13 @@
 .homePage {
-    background-image: url(../Assets/dawn-190055_960_720.jpg);
+    background-image: url(../Assets/48F39987-7E06-4896-BF77-7F0FB7C4295A_1_105_c.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: whitesmoke;
-    height: 45rem;
+    color: #ffffff;
+    height: 40rem;
 }
 
 .ButtonContainers {
@@ -17,10 +18,10 @@
 .HomePage-Button-Link {
     border-radius: 4px;
     padding: .65rem 2rem;
-    background-color: #cca353;
+    background-color: #5bc9af;
     color: #ffffff;
     font-weight: 600;
-    transition: background-color .5s;
+    transition: .5s;
     margin-right: 2.22rem;
     margin-bottom: 1.5rem;
 }
