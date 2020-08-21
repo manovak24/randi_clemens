@@ -1,4 +1,4 @@
-.homePage {
+.HomePage {
     background-image: url(../Assets/48F39987-7E06-4896-BF77-7F0FB7C4295A_1_105_c.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,21 +7,23 @@
     flex-direction: column;
     justify-content: center;
     color: #ffffff;
-    height: 40rem;
+    height: 45rem;
 }
 
-.ButtonContainers {
+.ButtonContainer {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .HomePage-Button-Link {
     border-radius: 4px;
     padding: .65rem 2rem;
-    background-color: #5bc9af;
+    background-color: #5bc9afa7;
     color: #ffffff;
     font-weight: 600;
-    transition: .5s;
+    transition: .1s;
     margin-right: 2.22rem;
     margin-bottom: 1.5rem;
 }
