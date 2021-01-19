@@ -52,7 +52,9 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" expand="lg" bg="light">
-            <Navbar.Brand>Randi Clemens</Navbar.Brand>
+            <Navbar.Brand>
+              <Link className="nav-brand" to="/">Randi Clemens</Link>
+            </Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">

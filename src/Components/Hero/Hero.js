@@ -11,7 +11,7 @@ function Hero(props) {
         <Jumbotron className="bg-transparent jumbotron-fluid pd-o mb-0">
             <Container className="jumboContainer" fluid="true">
                 <Row className="justify-content-center">
-                    <Col md={8} sm={12} className="Jumbotron-Text">
+                    <Col md={8} sm={12} className="jumbotron-text">
                         { props.title && <h1 className="display-1 font-weight-bolder border-bottom">{props.title}</h1> }
                         { props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3> }
                         { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }

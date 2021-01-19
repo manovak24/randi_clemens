@@ -15,11 +15,14 @@ function AboutPage(props) {
             <Hero title={props.title} />
             <Content>
                 <Container>
-                    <Row xs={3} md={3}>
-                        <Image src={randi} roundedCircle />
+                    <Row>
+                        <Col>
+                            <Image src={randi} className="rounded mx-auto d-block" roundedCircle />
+                        </Col>
                     </Row>
                     <Row>
                         <Col>
+                            <br></br>
                             <br></br>
                             <p>Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater. Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.</p>
                             <p>Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater. Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.Hi! My name is Randi Clemensl. I am a writer, reader and ice cream eater.</p>
