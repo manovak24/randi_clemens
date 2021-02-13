@@ -28,8 +28,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Randi Clemens',
-        subTitle: 'Writer | Reader | Ice Cream Eater',
-        text: 'Thanks for checking out my page! Please click/scroll through the images below or check out my Publications and Editorials pages for current lists'
+        subTitle: 'Writer ∙ Editor ∙ Educator'
       },
       publications: {
         title: 'Publications'

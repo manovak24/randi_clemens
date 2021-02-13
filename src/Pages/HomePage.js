@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../Components/Hero/Hero';
-import './HomePage.css'
+import './HomePage.css';
 import { Link } from 'react-router-dom';
 
 
