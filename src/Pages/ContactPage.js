@@ -41,7 +41,7 @@ class ContactPage extends React.Component {
             disabled: true
         });
 
-        emailjs.sendForm('gmail', 'testing', event.target, 'user_rQF8cs4fYnfBs2O7qJ0gs')
+        emailjs.sendForm('gmail', 'testing', event.target, 'NEED TO UPDATE USER ID')
             .then(res => {
                 Swal.fire({
                     title: 'Email Successfully Sent',
@@ -63,15 +63,14 @@ class ContactPage extends React.Component {
             <div>
                 <Hero title={this.props.title} />
                 <Content>
-                    <h5>Please feel free to contact me via my social media pages, email address provided below or the contact form. I will respond as soon as possible</h5>
-                    <br></br>
                     <Container>
                         <Row>
-                            <Col sm="auto">
+                            <Col xs="auto" md={5} className="mb-4 mt-1">
+                            <p>Please feel free to contact me via my social media pages, email address provided below or the contact form. I will respond as soon as possible</p>
                                 <a href="mailto:randiclemens@gmail.com"><MdEmail /> randiclemens@gmail.com</a>
                                 <SocialFollow />
                             </Col>
-                            <Col>
+                            <Col xs={12} md={7}>
                                 <Form onSubmit={this.handleSubmit}>
                                     <Form.Group>
                                         <Form.Label htmlFor="full-name">Full Name</Form.Label>
@@ -88,7 +87,7 @@ class ContactPage extends React.Component {
                                         <Form.Control id="message" name="message" as="textarea" row="3" value={this.state.message} onChange={this.handleChange} />
                                     </Form.Group>
 
-                                    <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                                    <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.user_name < 1 || this.state.user_email < 1 || this.state.message < 1}>
                                         Send
                                     </Button>
                                 </Form>

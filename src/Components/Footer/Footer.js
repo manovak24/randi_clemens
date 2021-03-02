@@ -9,10 +9,10 @@ import SocialFollow from '../SocialFollow/SocialFollow';
 class Footer extends React.Component {
     render() {
         return(
-            <footer className="mt-5">
+            <footer className="mt-2">
                 <Container fluid={true}>
                     <Row className="border-top justify-content-between p-3 d-flex">
-                        <Col className="p-0" md={3} sm={12}>
+                        <Col className="p-0">
                             <SocialFollow />
                         </Col>
                         <Col className="p-0 d-flex justify-content-end" md={3}>This site was made by Mark Novak</Col>

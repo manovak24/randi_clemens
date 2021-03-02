@@ -15,11 +15,11 @@ function AboutPage(props) {
             <Hero title={props.title} className="hero"/>
             <Content>
                 <Container>
-                    <Row>
-                        <Col>
+                    <Row className="justify-content-space-evenly">
+                        <Col xs={12} md={4} style={{marginRight: "3rem", paddingRight: "1rem"}}>
                             <Image src={randi} className="picture rounded mx-auto d-block" roundedCircle />
                         </Col>
-                        <Col>
+                        <Col xs={12} md={7}>
                             <p>Randi Clemens is a poet, editor, and educator who lives in the Upper Peninsula of 
                                 Michigan. She received her BA in Creative Writing from the University of Illinois at
                                 Urbana-Champaign and her MFA in poetry from Northern Michigan University where

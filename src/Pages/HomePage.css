@@ -19,6 +19,7 @@
 }
 
 .HomePage-Button-Link {
+    width: 12rem;
     border-radius: 4px;
     padding: .65rem 2rem;
     background-color: #5bc9afa7;
@@ -27,4 +28,5 @@
     transition: .1s;
     margin-right: 2.22rem;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
