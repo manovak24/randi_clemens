@@ -37,10 +37,6 @@ class ContactPage extends React.Component {
     handleSubmit = (event) => {
         event.preventDefault();
 
-        this.setState({
-            disabled: true
-        });
-
         emailjs.sendForm('gmail', 'testing', event.target, 'NEED TO UPDATE USER ID')
             .then(res => {
                 Swal.fire({

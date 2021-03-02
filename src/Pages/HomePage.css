@@ -24,9 +24,10 @@
     padding: .65rem 2rem;
     background-color: #5bc9afa7;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 750;
     transition: .1s;
-    margin-right: 2.22rem;
+    margin-right: 1em;
+    margin-left: 1rem;
     margin-bottom: 1.5rem;
     text-align: center;
 }

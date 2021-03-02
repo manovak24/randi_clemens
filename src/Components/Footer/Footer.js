@@ -11,11 +11,11 @@ class Footer extends React.Component {
         return(
             <footer className="mt-2">
                 <Container fluid={true}>
-                    <Row className="border-top justify-content-between p-3 d-flex">
-                        <Col className="p-0">
+                    <Row className="border-top justify-content-between p-3 mt-1 d-flex">
+                        <Col style={{textAlign:'left', padding:'0'}}>
                             <SocialFollow />
                         </Col>
-                        <Col className="p-0 d-flex justify-content-end" md={3}>This site was made by Mark Novak</Col>
+                        <Col style={{textAlign:'right', padding:'0'}}>Novak North Designs</Col>
                     </Row>
                 </Container>
             </footer>
