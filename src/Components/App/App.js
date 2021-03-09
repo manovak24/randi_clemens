@@ -11,7 +11,7 @@ import AboutPage from '../../Pages/AboutPage';
 import ContactPage from '../../Pages/ContactPage';
 import PublicationsPage from '../../Pages/PublicationsPage';
 import EditorialsPage from '../../Pages/EditorialsPage';
-
+import ScrollToTop from '../scroll';
 
 
 class App extends React.Component {
@@ -48,6 +48,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+        <ScrollToTop>
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" expand="md" bg="light">
@@ -76,6 +77,7 @@ class App extends React.Component {
           <Footer />
 
         </Container>
+        </ScrollToTop>
       </Router>
     );
   }
