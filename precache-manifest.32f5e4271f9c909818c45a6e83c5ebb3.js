@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52e2438aeab027f9b206da7aada82163",
+    "revision": "ba9fd8840ff18e645b70f8bd698d6c0f",
     "url": "/randi_clemens/index.html"
   },
   {
-    "revision": "43bedba91c6c6558a319",
+    "revision": "3da399ec4e64f35d2500",
     "url": "/randi_clemens/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "7c78697195794a5efce5",
+    "revision": "bbe56f19bb48dfc7fa18",
     "url": "/randi_clemens/static/css/main.2033e93f.chunk.css"
   },
   {
-    "revision": "43bedba91c6c6558a319",
-    "url": "/randi_clemens/static/js/2.2118bea2.chunk.js"
+    "revision": "3da399ec4e64f35d2500",
+    "url": "/randi_clemens/static/js/2.40f3ed00.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/randi_clemens/static/js/2.2118bea2.chunk.js.LICENSE.txt"
+    "url": "/randi_clemens/static/js/2.40f3ed00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c78697195794a5efce5",
-    "url": "/randi_clemens/static/js/main.de0aac57.chunk.js"
+    "revision": "bbe56f19bb48dfc7fa18",
+    "url": "/randi_clemens/static/js/main.9c2c16bf.chunk.js"
   },
   {
     "revision": "01c5a59969a1e7634183",
