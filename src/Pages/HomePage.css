@@ -1,5 +1,5 @@
 .HomePage {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(../Assets/48F39987-7E06-4896-BF77-7F0FB7C4295A_1_105_c.jpeg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url(../Assets/48F39987-7E06-4896-BF77-7F0FB7C4295A_1_105_c.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,7 +8,7 @@
     justify-content: center;
     color: #ffffff;
     height: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 7rem;
 }
 
 .ButtonContainer {
@@ -22,7 +22,7 @@
     width: 12rem;
     border-radius: 4px;
     padding: .65rem 2rem;
-    background-color: #5bc9afa7;
+    background-color: #5bc9afc0;
     color: #ffffff;
     font-weight: 750;
     transition: .1s;

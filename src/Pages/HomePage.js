@@ -8,7 +8,7 @@ function HomePage(props) {
     return(
         <div className="HomePage">
             <div>
-                <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+                <Hero title={props.title} subTitle={props.subTitle} />
             </div>
             <div className="ButtonContainer">
                 <Link className="HomePage-Button-Link" to="/about">About</Link>
