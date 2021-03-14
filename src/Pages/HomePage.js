@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function HomePage(props) {
     return(
         <div className="HomePage">
-            <div>
+            <div className="hero-home-container">
                 <Hero title={props.title} subTitle={props.subTitle} />
             </div>
             <div className="ButtonContainer">

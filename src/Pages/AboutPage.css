@@ -1,0 +1,16 @@
+.about-container {
+    margin: 2rem 4rem auto 4rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.bio-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
