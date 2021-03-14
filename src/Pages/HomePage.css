@@ -7,8 +7,12 @@
     flex-direction: column;
     justify-content: center;
     color: #ffffff;
-    height: auto;
+    height: 42rem;
     padding-bottom: 7rem;
+}
+
+.hero-home-container {
+    margin-bottom: 8rem;
 }
 
 .ButtonContainer {
