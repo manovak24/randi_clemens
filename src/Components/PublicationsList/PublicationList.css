@@ -1,6 +1,5 @@
 .pub-container p {
     font-weight: bold;
-
 }
 
 .pub-container a {
@@ -15,5 +14,16 @@
 
 .pub-container h5 {
     font-style: italic;
-    
+}
+
+.publication-launch-button {
+    min-width: 12rem;
+    border-radius: 1rem;
+    background-color: #55bba3;
+    color: #ffffff;
+    font-weight: 900;
+    transition: .1s;
+    margin: .45rem;
+    padding: .65rem 2rem;
+    text-align: center;
 }

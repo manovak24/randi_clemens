@@ -1,6 +1,4 @@
 import React from 'react';
-import Container from 'react-bootstrap/container';
-import Row from 'react-bootstrap/row';
 import './PublicationList.css';
 
 class PublicationsList extends React.Component {
@@ -75,10 +73,10 @@ class PublicationsList extends React.Component {
     pubList = (publications) => (
                 <ul className="pub-container">
                     {publications.slice(0).reverse().map(publication => (
-                        <li key={publication.id}>
+                        <li key={publication.id} className="list-container">
                             <h5>{publication.title}</h5>
                             <p>Publisher: {publication.publisher}</p>
-                            <a href={publication.link} target="_blank" rel="noopener noreferrer">{publication.link}</a>
+                            <a className="publication-launch-button" href={publication.link} target="_blank" rel="noopener noreferrer">Link to Publication</a>
                         </li>
                     ))}
                 </ul>
@@ -86,11 +84,9 @@ class PublicationsList extends React.Component {
 
     render() {
         return(
-            <Container>
-                <Row>
-                    {this.pubList(this.state.publications)}
-                </Row>
-            </Container>
+            <div>
+                {this.pubList(this.state.publications)}
+            </div>
         )
     }
 }
