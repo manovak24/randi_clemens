@@ -17,7 +17,7 @@
 }
 
 .publication-launch-button {
-    min-width: 12rem;
+    max-width: 14rem;
     border-radius: 1rem;
     background-color: #55bba3;
     color: #ffffff;
@@ -25,6 +25,8 @@
     transition: .1s;
     padding: .65rem 2rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .pub-link-container {
