@@ -2,3 +2,29 @@
     text-align: center;
     height: 8rem;
 }
+
+.jumbotron-elements h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.jumbotron-elements h2 {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 31.25rem) {
+    .jumbotron-elements h1 {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media screen and (max-width: 28.125rem) {
+    .jumbotron-elements h1 {
+        font-size: 3rem;
+    }
+    .jumbotron-elements h2 {
+        font-size: 1.35rem;
+    }
+}
+
