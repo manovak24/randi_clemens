@@ -14,3 +14,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 37.5rem) {
+    .about-container {
+        margin: 2rem 2rem auto 2rem;
+    }
+}
