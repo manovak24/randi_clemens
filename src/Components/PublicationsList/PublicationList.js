@@ -74,9 +74,15 @@ class PublicationsList extends React.Component {
                 <ul className="pub-container">
                     {publications.slice(0).reverse().map(publication => (
                         <li key={publication.id} className="list-container">
-                            <h5>{publication.title}</h5>
-                            <p>Publisher: {publication.publisher}</p>
-                            <a className="publication-launch-button" href={publication.link} target="_blank" rel="noopener noreferrer">Link to Publication</a>
+                            <div>
+                                <div>
+                                    <h5>{publication.title}</h5>
+                                    <p>Publisher: {publication.publisher}</p>
+                                </div>
+                                <div className="pub-link-container">                          
+                                    <a className="publication-launch-button" href={publication.link} target="_blank" rel="noopener noreferrer">Link to Publication</a>
+                                </div>
+                            </div>
                         </li>
                     ))}
                 </ul>

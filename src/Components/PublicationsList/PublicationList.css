@@ -23,7 +23,10 @@
     color: #ffffff;
     font-weight: 900;
     transition: .1s;
-    margin: .45rem;
     padding: .65rem 2rem;
     text-align: center;
+}
+
+.pub-link-container {
+    margin-bottom: 2rem;
 }
