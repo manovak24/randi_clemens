@@ -5,12 +5,14 @@
 .image-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
+    padding-top: 1rem;
 }
 
 .bio-container {
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -18,5 +20,24 @@
 @media screen and (max-width: 37.5rem) {
     .about-container {
         margin: 2rem 2rem auto 2rem;
+    }
+}
+
+.button-resume-container {
+    width: 14rem;
+    border-radius: 1rem;
+    background-color: #55bba3;
+    font-weight: 700;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-bottom: .5rem;
+}
+
+.button-resume-link {
+    color: white;
+}
+
+@media screen and (max-width: 47.938rem) {
+    .button-resume-container {
+        margin-bottom: 2rem;
     }
 }
