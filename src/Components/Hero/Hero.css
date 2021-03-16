@@ -1,30 +1,19 @@
 .jumbotron-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url('../../Assets/48F39987-7E06-4896-BF77-7F0FB7C4295A_1_105_c.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
     text-align: center;
-    height: 8rem;
+    height: 10rem;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .jumbotron-container {
+        height: auto;
+    }
 }
 
 .jumbotron-elements h1 {
-    font-size: 4.5rem;
     font-weight: 700;
 }
-
-.jumbotron-elements h2 {
-    font-weight: 700;
-}
-
-@media screen and (max-width: 31.25rem) {
-    .jumbotron-elements h1 {
-        font-size: 3.5rem;
-    }
-
-}
-
-@media screen and (max-width: 28.125rem) {
-    .jumbotron-elements h1 {
-        font-size: 3rem;
-    }
-    .jumbotron-elements h2 {
-        font-size: 1.35rem;
-    }
-}
-
