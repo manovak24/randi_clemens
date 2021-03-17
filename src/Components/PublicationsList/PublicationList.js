@@ -1,4 +1,6 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import './PublicationList.css';
 
 class PublicationsList extends React.Component {
@@ -65,6 +67,12 @@ class PublicationsList extends React.Component {
                     title: 'Hysterectomy',
                     publisher: 'LandLocked',
                     link: 'https://indd.adobe.com/view/1053f6b5-6a21-4c50-864b-a892db2b1d43',
+                },
+                {
+                    id: 10,
+                    title: 'When My Mother YouTubes Cremation',
+                    publisher: 'Lammergeier Magazine',
+                    link: 'https://www.lammergeier.org/post/when-my-mother-randi-clemens',
                 }
             ]
         };
@@ -74,15 +82,12 @@ class PublicationsList extends React.Component {
                 <ul className="pub-container">
                     {publications.slice(0).reverse().map(publication => (
                         <li key={publication.id} className="list-container">
-                            <div>
-                                <div>
-                                    <h5>{publication.title}</h5>
-                                    <p>Publisher: {publication.publisher}</p>
-                                </div>
-                                <div className="pub-link-container">                          
-                                    <a className="publication-launch-button" href={publication.link} target="_blank" rel="noopener noreferrer">Link to Publication</a>
-                                </div>
-                            </div>
+                            <Row>
+                                <Col>
+                                    <a href={publication.link} target="_blank" rel="noopener noreferrer">"{publication.title}"</a>
+                                    <p>{publication.publisher}</p>
+                                </Col>
+                            </Row>
                         </li>
                     ))}
                 </ul>

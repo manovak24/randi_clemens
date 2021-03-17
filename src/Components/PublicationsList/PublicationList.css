@@ -1,34 +1,11 @@
-.pub-container p {
-    font-weight: bold;
+.list-container {
+    list-style-type: none;
 }
 
-.pub-container a {
+.pub-container p {
     font-style: italic;
-    
 }
 
 .pub-container li {
-    padding-bottom: 25px;
-    
-}
-
-.pub-container h5 {
-    font-style: italic;
-}
-
-.publication-launch-button {
-    max-width: 14rem;
-    border-radius: 1rem;
-    background-color: #55bba3;
-    color: #ffffff;
-    font-weight: 900;
-    transition: .1s;
-    padding: .65rem 2rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.pub-link-container {
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
