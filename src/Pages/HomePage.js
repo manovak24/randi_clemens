@@ -14,6 +14,7 @@ function HomePage(props) {
                 <Link className="HomePage-Button-Link" to="/about">About</Link>
                 <Link className="HomePage-Button-Link" to="/publications">Publications</Link>
                 <Link className="HomePage-Button-Link" to="/editorials">Editorial Work</Link>
+                <Link className="HomePage-Button-Link" to="/freelance">Freelance</Link>
                 <Link className="HomePage-Button-Link" to="/contact">Contact</Link>
             </div>
         </div>
