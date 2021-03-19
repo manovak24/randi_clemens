@@ -12,6 +12,7 @@ import ContactPage from '../../Pages/ContactPage';
 import PublicationsPage from '../../Pages/PublicationsPage';
 import EditorialsPage from '../../Pages/EditorialsPage';
 import ScrollToTop from '../scroll';
+import Freelance from '../../Pages/freelance';
 
 
 class App extends React.Component {
@@ -41,6 +42,9 @@ class App extends React.Component {
       },
       contact: {
         title: 'Contact Me'
+      },
+      freelance: {
+        title: 'Freelance'
       }
     }
   }
@@ -70,6 +74,7 @@ class App extends React.Component {
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/publications">Publications</Link>
                 <Link className="nav-link" to="/editorials">Editorial Work</Link>
+                <Link className="nav-link" to="/freelance">Freelance</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
               </Nav>
             </Navbar.Collapse>
@@ -79,6 +84,7 @@ class App extends React.Component {
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/publications" render={() => <PublicationsPage title={this.state.publications.title} />} />
           <Route path="/editorials" render={() => <EditorialsPage title={this.state.editorials.title} />} />
+          <Route path="/freelance" render={() => <Freelance title={this.state.freelance.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
           
 
