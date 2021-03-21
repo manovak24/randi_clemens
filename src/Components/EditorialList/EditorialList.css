@@ -1,0 +1,32 @@
+.editorial-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.passages-container {
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.ninth-container {
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 53.125rem) {
+    .editorial-container {
+        justify-content: flex-start;
+    }
+    .passages-container {
+        margin-right: 0rem;
+        margin-left: 2rem;
+        padding-left: 0rem;
+        padding-right: 2rem;
+    }
+    
+    .ninth-container {
+        margin-left: 0rem;
+        margin-right: 2rem;
+    }
+}
