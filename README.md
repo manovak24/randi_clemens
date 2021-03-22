@@ -22,7 +22,7 @@
 * React Bootstrap
 * React Router
 * React Icons
-* emailjs
+* EmailJS
 * Sweet Alert
 * JavaScript
 * HTML
@@ -31,8 +31,7 @@
 ## Setup
 Please follow link to website - https://manovak24.github.io/randi_clemens/
 
-## Code Examplesimport React from 'react';
-
+## Code Examples
 
 ```js
 import React from 'react';
