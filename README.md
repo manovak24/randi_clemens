@@ -15,7 +15,7 @@
 > Professional website for Randi Clemens. This is a react app utilizing bootstrap features and custom components to showcase Randi Clemens.
 
 ## Screenshots
-![Example screenshot](./src/Assets/Screen Shot 2021-03-22 at 11.57.57 AM.png)
+![Example screenshot](./src/Assets/screen-shot.png)
 
 ## Technologies
 * Tech 1 - version 1.0
