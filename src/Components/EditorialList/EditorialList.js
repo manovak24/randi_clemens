@@ -69,8 +69,8 @@ class EditorialList extends React.Component {
                             <h1>Passages North</h1>
                             <p>Managing Editor: Issue 42 forthcoming spring 2021</p>
                             <p>Associate Editor: 
-                                <a href="https://www.passagesnorth.com/issue-40" target="_blank" rel="noopener noreferrer">Issue 40</a>, 
-                                <a href="https://www.passagesnorth.com/issue-39" target="_blank" rel="noopener noreferrer">Issue 39</a>
+                                <a href="https://www.passagesnorth.com/issue-40" target="_blank" rel="noopener noreferrer"> Issue 40</a>, 
+                                <a href="https://www.passagesnorth.com/issue-39" target="_blank" rel="noopener noreferrer"> Issue 39</a>
                             </p>
                             <ul className="edit-container left-rule">
                                 {this.state.editorials.map(editorial => (
@@ -86,11 +86,11 @@ class EditorialList extends React.Component {
                         <div className="ninth-info-container">
                             <h1>Ninth Letter</h1>
                             <p>Editorial Intern:
-                                <a href="http://ninthletter.com/journal/147-13-2-fall-winter-2016" target="_blank" rel="noopener noreferrer">Vol. 13 No. 2</a>,
-                                <a href="http://www.ninthletter.com/journal/134-13-1-spring-summer-2016" target="_blank" rel="noopener noreferrer">Vol. 13 No. 1</a>
+                                <a href="http://ninthletter.com/journal/147-13-2-fall-winter-2016" target="_blank" rel="noopener noreferrer"> Vol. 13 No. 2</a>,
+                                <a href="http://www.ninthletter.com/journal/134-13-1-spring-summer-2016" target="_blank" rel="noopener noreferrer"> Vol. 13 No. 1</a>
                             </p>
                             <p>Editorial Assistant:
-                                <a href="http://ninthletter.com/winter-2016/winter-16-main" target="_blank" rel="noopener noreferrer">Winter 2016</a>
+                                <a href="http://ninthletter.com/winter-2016/winter-16-main" target="_blank" rel="noopener noreferrer"> Winter 2016</a>
                             </p>
                         </div>
                     </div>
