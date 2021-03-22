@@ -18,32 +18,62 @@
 ![Example screenshot](./src/Assets/screen-shot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* React
+* React Bootstrap
+* React Router
+* React Icons
+* emailjs
+* Sweet Alert
+* JavaScript
+* HTML
+* CSS
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Please follow link to website - https://manovak24.github.io/randi_clemens/
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+## Code Examplesimport React from 'react';
+
+
+```js
+import React from 'react';
+import './HomePage.css';
+import { Link } from 'react-router-dom';
+
+
+function HomePage(props) {
+    return(
+        <div className="HomePage">
+            <div className="home-text-container">
+                <h1>Randi Clemens</h1>
+                <p>Writer ∙ Editor ∙ Educator</p>
+            </div>
+            <div className="ButtonContainer">
+                <Link className="HomePage-Button-Link" to="/about">About</Link>
+                <Link className="HomePage-Button-Link" to="/publications">Publications</Link>
+                <Link className="HomePage-Button-Link" to="/editorials">Editorial Work</Link>
+                <Link className="HomePage-Button-Link" to="/freelance">Freelance</Link>
+                <Link className="HomePage-Button-Link" to="/contact">Contact</Link>
+            </div>
+        </div>
+    );
+}
+
+export default HomePage;
+```
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Contact form email services via EmailJS
+* Navagation buttons on Home Page
+* Responsive design for a range of screen sizes
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Need to deploy on something other than GitHub Pages
+* Still needs some cleaning up and a few refractors
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
+Project is: _in progress_
+> Still working with client to finalize the design and content.
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@manovak24](https://github.com/manovak24) - feel free to contact me!
