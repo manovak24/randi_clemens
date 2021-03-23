@@ -65,16 +65,16 @@ class EditorialList extends React.Component {
             <Row> 
                 <Col  className="editorial-container">
                     <div className="passages-container">
-                        <div className="passages-info-container">
-                            <h1>Passages North</h1>
+                        <div>
+                            <h1 id="title-tag">Passages North</h1>
                             <p>Managing Editor: Issue 42 forthcoming spring 2021</p>
                             <p>Associate Editor: 
                                 <a href="https://www.passagesnorth.com/issue-40" target="_blank" rel="noopener noreferrer"> Issue 40</a>, 
                                 <a href="https://www.passagesnorth.com/issue-39" target="_blank" rel="noopener noreferrer"> Issue 39</a>
                             </p>
-                            <ul className="edit-container left-rule">
+                            <ul className="edit-list-container">
                                 {this.state.editorials.map(editorial => (
-                                    <li key={editorial.id} className="edit-list-container">   
+                                    <li key={editorial.id} id="passages-links">   
                                         <a href={editorial.link} target="_blank" rel="noopener noreferrer">{editorial.title}</a>                     
                                     </li>
                                 ))}
@@ -83,8 +83,8 @@ class EditorialList extends React.Component {
                     </div>
                 
                     <div className="ninth-container">
-                        <div className="ninth-info-container">
-                            <h1>Ninth Letter</h1>
+                        <div>
+                            <h1 id="title-tag">Ninth Letter</h1>
                             <p>Editorial Intern:
                                 <a href="http://ninthletter.com/journal/147-13-2-fall-winter-2016" target="_blank" rel="noopener noreferrer"> Vol. 13 No. 2</a>,
                                 <a href="http://www.ninthletter.com/journal/134-13-1-spring-summer-2016" target="_blank" rel="noopener noreferrer"> Vol. 13 No. 1</a>
