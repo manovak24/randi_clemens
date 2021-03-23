@@ -4,11 +4,11 @@ import { Row, Col, Image } from 'react-bootstrap';
 import Hero from '../Components/Hero/Hero';
 import './AboutPage.css';
 
-import Resume from '../Assets/Randi Website Resume.pdf';
+import Resume from '../Assets/Randi-Website-Resume.pdf';
 import { Link } from 'react-router-dom';
 
 function AboutPage(props) {
-    const randi = require('../Assets/Randi Website About Me Photo.jpg');
+    const randi = require('../Assets/randi.jpg');
 
     return(
         <div>
