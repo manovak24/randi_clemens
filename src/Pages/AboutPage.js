@@ -8,12 +8,12 @@ import Resume from '../Assets/Randi Website Resume.pdf';
 import { Link } from 'react-router-dom';
 
 function AboutPage(props) {
-    const randi = require('../Assets/randi.jpg');
+    const randi = require('../Assets/Randi Website About Me Photo.jpg');
 
     return(
         <div>
-            <div className="hero-about-container">
-                <Hero title={props.title} className="hero"/>
+            <div>
+                <Hero title={props.title} />
             </div>
             <div className="about-container">    
                 <Row>
