@@ -80,7 +80,7 @@ class ContactPage extends React.Component {
 
                                     <Form.Group>
                                         <Form.Label htmlFor="message">Message</Form.Label>
-                                        <Form.Control id="message" name="message" as="textarea" row="3" value={this.state.message} onChange={this.handleChange} />
+                                        <Form.Control id="message" name="message" as="textarea" rows="5" value={this.state.message} onChange={this.handleChange} />
                                     </Form.Group>
 
                                     <Button className="d-inline-block mb-4" variant="primary" type="submit" disabled={this.state.user_name < 1 || this.state.user_email < 1 || this.state.message < 1}>
