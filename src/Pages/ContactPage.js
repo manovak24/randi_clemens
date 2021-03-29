@@ -61,8 +61,8 @@ class ContactPage extends React.Component {
                 <Content>
                     <Container>
                         <Row>
-                            <Col xs="auto" md={5} className="mb-4 mt-1">
-                            <p>Please feel free to contact me via my social media pages, email address provided below or the contact form. I will respond as soon as possible</p>
+                            <Col xs="auto" md={5} className="mb-4 mt-4" style={{textAlign: 'center'}}>
+                            <p>Let's connect! Please feel free to use the contact form provided or reach out to me direct via my email address provided one of my social media accounts. Thanks!</p>
                                 <a href="mailto:randiclemens@gmail.com"><MdEmail /> randiclemens@gmail.com</a>
                                 <SocialFollow />
                             </Col>
