@@ -30,10 +30,11 @@ function AboutPage(props) {
                         theory, women and gender studies, visual poetics, and social justice pedagogy. She is
                         actively seeking a home for her full-length manuscript and freelance opportunities as a
                         creative consultant and/or editor.</p>
+                    <div className="button-container">
+                        <Link className="button-link" to={Resume} target="_blank" download>Download Resume</Link> 
+                    </div>    
                 </article>
-                <div className="button-container">
-                    <Link className="button-link" to={Resume} target="_blank" download>Download Resume</Link> 
-                </div>
+                
             </div>
         </div>
     )

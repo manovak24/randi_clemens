@@ -3,7 +3,7 @@
 }
 
 .bio-container {
-    text-align: center;
+    text-align: left;
     margin: auto 5rem 1rem 5rem;
     display: table;
 }
@@ -22,11 +22,9 @@
     .bio-container {
         margin: auto 2rem 1rem 2rem;
     }
-
     .bio-container p {
         margin-top: 0;
     }
-
     .randi-image {
         float: none;
         margin-right: 0;
