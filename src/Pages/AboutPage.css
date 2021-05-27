@@ -8,6 +8,10 @@
     display: table;
 }
 
+.bio-container p {
+    margin-top: 1rem;
+}
+
 .randi-image {
     float: left;
     margin-right: 1rem;
@@ -18,6 +22,11 @@
     .bio-container {
         margin: auto 2rem 1rem 2rem;
     }
+
+    .bio-container p {
+        margin-top: 0;
+    }
+
     .randi-image {
         float: none;
         margin-right: 0;
